@@ -12,4 +12,4 @@ if __name__ == "__main__":
         logging.INFO if Config.DEBUG else logging.WARNING
     )
 
-    screenshotbot().run()
+    ScreenShotBot().run()
