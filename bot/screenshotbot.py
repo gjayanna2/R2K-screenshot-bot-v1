@@ -24,7 +24,7 @@ class ScreenShotBot(Client):
             bot_token=Config.BOT_TOKEN,
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
-            plugins=dict(root="bot/plugins"),
+            plugins=dict(root="bot/plugins")
         )
         self.process_pool = Worker()
         self.CHAT_FLOOD = defaultdict(
